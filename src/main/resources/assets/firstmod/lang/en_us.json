@@ -1,0 +1,15 @@
+{
+
+  "item.firstmod.citrine": "Citrine",
+  "item.firstmod.raw_citrine": "Raw Citrine",
+
+  "block.firstmod.citrine_block": "Block of Citrine",
+  "block.firstmod.raw_citrine_block": "Raw Block of Citrine",
+  "block.firstmod.citrine_ore": "Citrine Ore",
+  "block.firstmod.netherrack_citrine_ore": "Nether Citrine Ore",
+  "block.firstmod.endstone_citrine_ore": "End Citrine Ore",
+  "block.firstmod.deepslate_citrine_ore": "Deepslate Citrine Ore",
+
+  "ItemGroup.firsttab": "First Mod"
+
+}

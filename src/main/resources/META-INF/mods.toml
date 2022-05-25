@@ -29,7 +29,7 @@ displayName="First Test Mod" #mandatory
 # A file name (in the root of the mod JAR) containing a logo for display
 logoFile="examplemod.png" #optional
 # A text field displayed in the mod UI
-credits="Genshin Impact's cool weapons and comabat" #optional
+credits="None Yet" #optional
 # A text field displayed in the mod UI
 authors="Murasame______" #optional
 # The description text for the mod (multi line!) (#mandatory)
