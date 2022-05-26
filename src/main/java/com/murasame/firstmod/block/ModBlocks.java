@@ -21,11 +21,11 @@ public class ModBlocks {
             DeferredRegister.create(ForgeRegistries.BLOCKS, firstMod.MOD_ID);
 
     public static final RegistryObject<Block> CITRINE_BLOCK = registerBlock("citrine_block",
-            () -> new Block(BlockBehaviour.Properties.of(Material.HEAVY_METAL)
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
                     .strength(11f).requiresCorrectToolForDrops()), ModCreativeModeTab.FIRST_TAB);
-
+    //find netherite block properties
     public static final RegistryObject<Block> RAW_CITRINE_BLOCK = registerBlock("raw_citrine_block",
-            () -> new Block(BlockBehaviour.Properties.of(Material.AMETHYST)
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
                     .strength(7f).requiresCorrectToolForDrops()), ModCreativeModeTab.FIRST_TAB);
 
     public static final RegistryObject<Block> CITRINE_ORE = registerBlock("citrine_ore",
@@ -33,15 +33,15 @@ public class ModBlocks {
                     .strength(5f).requiresCorrectToolForDrops()), ModCreativeModeTab.FIRST_TAB);
 
     public static final RegistryObject<Block> DEEPSLATE_CITRINE_ORE = registerBlock("deepslate_citrine_ore",
-            () -> new Block(BlockBehaviour.Properties.of(Material.AMETHYST)
+            () -> new Block(BlockBehaviour.Properties.of(Material.HEAVY_METAL)
                     .strength(5f).requiresCorrectToolForDrops()), ModCreativeModeTab.FIRST_TAB);
-
+    //find netherite block properties
     public static final RegistryObject<Block> ENDSTONE_CITRINE_ORE = registerBlock("endstone_citrine_ore",
-            () -> new Block(BlockBehaviour.Properties.of(Material.AMETHYST)
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
                     .strength(5f).requiresCorrectToolForDrops()), ModCreativeModeTab.FIRST_TAB);
 
     public static final RegistryObject<Block> NETHERRACK_CITRINE_ORE = registerBlock("netherrack_citrine_ore",
-            () -> new Block(BlockBehaviour.Properties.of(Material.AMETHYST)
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(5f).requiresCorrectToolForDrops()), ModCreativeModeTab.FIRST_TAB);
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab )

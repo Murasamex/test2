@@ -10,6 +10,6 @@
   "block.firstmod.endstone_citrine_ore": "End Citrine Ore",
   "block.firstmod.deepslate_citrine_ore": "Deepslate Citrine Ore",
 
-  "ItemGroup.firsttab": "First Mod"
+  "itemGroup.firsttab": "First Mod"
 
 }
